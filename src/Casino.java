@@ -8,5 +8,8 @@ public class Casino{
         if(moneyManager.getTotalMoney()>= ganble){
             moneyManager.withdrawMoney(ganble);
         }
+        else {
+            System.out.println("אין מספיק כסף");
+        }
     }
 }
